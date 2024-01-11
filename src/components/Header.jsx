@@ -13,6 +13,7 @@ const Header = () => {
 
                 <div className="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row sm:items-center">
                     <button
+                        onClick={() => window.open("https://github.com/DitinAgrawal/Quick-Share")}
                         className="inline-flex items-center justify-center gap-1.5 rounded-lg border border-gray-200 bg-white px-5 py-3 text-gray-500 transition hover:text-gray-700 focus:outline-none focus:ring"
                         type="button"
                     >
@@ -34,12 +35,12 @@ const Header = () => {
                         </svg>
                     </button>
 
-                    <button
+                    {/* <button
                         className="block rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
                         type="button"
                     >
                         User
-                    </button>
+                    </button> */}
                 </div>
             </div>
         </div>
